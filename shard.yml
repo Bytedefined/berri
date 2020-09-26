@@ -1,0 +1,11 @@
+name: berri
+description: Berri is a framework for writing fast and efficient Linux webapps in Crystal
+version: 0.1.0
+
+authors:
+  - acoolstraw <acoolstraw@protonmail.com>
+  - Yutyo <tansiretakinci@yandex.com>
+
+crystal: 0.35.1
+
+license: GPL-3.0
