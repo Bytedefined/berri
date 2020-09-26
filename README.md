@@ -1,4 +1,5 @@
-# berri
+# Berri
+![License](https://img.shields.io/github/license/macawos/berri) ![Crystal Version](https://img.shields.io/badge/Crystal-0.35.1-000) ![Issues](https://img.shields.io/github/issues/macawos/berri)
 
 Berri is a framework for writing fast and efficient Linux webapps in Crystal
 
