@@ -17,11 +17,35 @@ Berri is a framework for writing fast and efficient Linux webapps in Crystal
 
 ## Usage
 
-*app.cr*
+*./app.cr*
 ```crystal
 require "berri"
+require "./app/*"
 
-Berri::Server.run
+app = Berri::App.new
+app.title = "DeLorean"
+app.color = "#111111"
+```
+*./app/main.cr*
+```crystal
+require "berri/main"
+
+post "/" do |context|
+   song_dir = env.params.body["song_dir"].as(String)
+   puts "Now playing: #{song_dir}"
+end
+
+Berri::Main.run
+```
+*./app/client.cr*
+```crystal
+require "berri/client"
+
+get "/" do |context|
+   render "/src/render/index.ecr"
+end
+
+Berri::Client.run
 ```
 
 ## Development
