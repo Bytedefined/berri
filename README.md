@@ -1,5 +1,3 @@
-# Berri
-
 ![Logo](https://raw.githubusercontent.com/macawos/ornith/master/logo/texticon/berri-black.svg)
 
 ![License](https://img.shields.io/github/license/macawos/berri) ![Crystal Version](https://img.shields.io/badge/Crystal-0.35.1-000) ![Issues](https://img.shields.io/github/issues/macawos/berri) [![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg)](https://t.me/macawos) ![Discord](https://img.shields.io/discord/758767067196817470)
